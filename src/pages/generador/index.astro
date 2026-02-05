@@ -1,0 +1,22 @@
+---
+import PageLayout from "@layouts/PageLayout.astro"
+import TopLayout from "@layouts/TopLayout.astro"
+import BottomLayout from "@layouts/BottomLayout.astro"
+---
+
+<PageLayout title="Generador" description="Generador de recursos docents">
+  <TopLayout>
+    <div class="animate page-heading">
+      Generador
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate">
+      <iframe 
+        src="https://script.google.com/macros/s/AKfycby_iKjtTGmSHsBNnWgP8yj1G1QhwT0q0ZEnzXrT-X8bFG2BVxA6DD6RYQhB9cSz3R1Yvw/exec"
+        style="width: 100%; height: 100vh; min-height: 800px; border: none;"
+        title="Generador de Recursos"
+      ></iframe>
+    </div>
+  </BottomLayout>
+</PageLayout>
